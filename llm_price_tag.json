@@ -1,0 +1,52 @@
+{
+  "models": {
+    "claude-fable-5": {
+      "rates": [{"effective_date": "2026-07-01", "input": 10.0, "output": 50.0, "cache_write_5m": 1.25, "cache_write_1h": 2.0, "cache_read": 0.1}]
+    },
+    "claude-mythos-5": {
+      "rates": [{"effective_date": "2026-07-01", "input": 10.0, "output": 50.0, "cache_write_5m": 1.25, "cache_write_1h": 2.0, "cache_read": 0.1}]
+    },
+    "claude-opus-4-8": {
+      "rates": [{"effective_date": "2026-07-01", "input": 5.0, "output": 25.0, "cache_write_5m": 1.25, "cache_write_1h": 2.0, "cache_read": 0.1}]
+    },
+    "claude-opus-4-7": {
+      "rates": [{"effective_date": "2026-07-01", "input": 5.0, "output": 25.0, "cache_write_5m": 1.25, "cache_write_1h": 2.0, "cache_read": 0.1}]
+    },
+    "claude-opus-4-6": {
+      "rates": [{"effective_date": "2026-07-01", "input": 5.0, "output": 25.0, "cache_write_5m": 1.25, "cache_write_1h": 2.0, "cache_read": 0.1}]
+    },
+    "claude-opus-4-5": {
+      "rates": [{"effective_date": "2026-07-01", "input": 5.0, "output": 25.0, "cache_write_5m": 1.25, "cache_write_1h": 2.0, "cache_read": 0.1}]
+    },
+    "claude-opus-4-1": {
+      "rates": [{"effective_date": "2026-07-01", "input": 15.0, "output": 75.0, "cache_write_5m": 1.25, "cache_write_1h": 2.0, "cache_read": 0.1}]
+    },
+    "claude-opus-4-0": {
+      "rates": [{"effective_date": "2026-07-01", "input": 15.0, "output": 75.0, "cache_write_5m": 1.25, "cache_write_1h": 2.0, "cache_read": 0.1}]
+    },
+    "claude-sonnet-5": {
+      "rates": [
+        {"effective_date": "2026-06-01", "input": 2.0, "output": 10.0, "cache_write_5m": 1.25, "cache_write_1h": 2.0, "cache_read": 0.1},
+        {"effective_date": "2026-09-01", "input": 3.0, "output": 15.0, "cache_write_5m": 1.25, "cache_write_1h": 2.0, "cache_read": 0.1}
+      ]
+    },
+    "claude-sonnet-4-6": {
+      "rates": [{"effective_date": "2026-07-01", "input": 3.0, "output": 15.0, "cache_write_5m": 1.25, "cache_write_1h": 2.0, "cache_read": 0.1}]
+    },
+    "claude-sonnet-4-5": {
+      "rates": [{"effective_date": "2026-07-01", "input": 3.0, "output": 15.0, "cache_write_5m": 1.25, "cache_write_1h": 2.0, "cache_read": 0.1}]
+    },
+    "claude-sonnet-4-0": {
+      "rates": [{"effective_date": "2026-07-01", "input": 3.0, "output": 15.0, "cache_write_5m": 1.25, "cache_write_1h": 2.0, "cache_read": 0.1}]
+    },
+    "claude-haiku-4-5": {
+      "rates": [{"effective_date": "2026-07-01", "input": 1.0, "output": 5.0, "cache_write_5m": 1.25, "cache_write_1h": 2.0, "cache_read": 0.1}]
+    },
+    "claude-3-5-haiku": {
+      "rates": [{"effective_date": "2026-07-01", "input": 0.8, "output": 4.0, "cache_write_5m": 1.25, "cache_write_1h": 2.0, "cache_read": 0.1}]
+    },
+    "default": {
+      "rates": [{"effective_date": "2026-07-01", "input": 5.0, "output": 25.0, "cache_write_5m": 1.25, "cache_write_1h": 2.0, "cache_read": 0.1}]
+    }
+  }
+}

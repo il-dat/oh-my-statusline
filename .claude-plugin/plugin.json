@@ -1,0 +1,8 @@
+{
+  "name": "cost-statusline",
+  "description": "Status line showing model | input/output tokens | locally-computed session cost, priced from a bundled per-model rate table.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Dat Nguyen"
+  }
+}
