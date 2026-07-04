@@ -6,26 +6,12 @@ refresh — no transcript parsing, no rate table, no provider API call. The sess
 cost is the one Claude Code already computes client-side (`cost.total_cost_usd`),
 so the script just formats it rather than re-deriving it.
 
-## Table of Contents
-
-- [What it shows](#what-it-shows)
-- [Prerequisites](#prerequisites)
-- [Install](#install)
-  - [From GitHub (marketplace)](#from-github-marketplace)
-  - [Alternative: declarative install (settings.json)](#alternative-declarative-install-settingsjson)
-  - [Wire up the status line](#wire-up-the-status-line)
-- [How it works](#how-it-works)
-- [Customizing](#customizing)
-
 ## What it shows
 
 On every status-line refresh Claude Code pipes a JSON blob to
 `scripts/claude_cost.sh` on stdin, and the script prints two colored lines:
 
-```
-Opus 4.8 | 73% ctx | $1.23 | 3m 5s | +156 -23
-📁 status-line-cost | 🌿 main
-```
+![alt text](docs/assets/img/status-line-demo.png)
 
 Each segment is pulled directly from the payload (the branch has one exception):
 
